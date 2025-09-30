@@ -1,90 +1,90 @@
-# print('i love "Bangldesh"')
+print('i love "Bangldesh"')
 
 # upper and lower function
-# text1 = "i love bangladseh"
-# # print(text1.lower())
-# # print(text1.upper())
-# # print(text1.capitalize())
-# # print(text1.title())
-# print(text1.swapcase())
+text1 = "i love bangladseh"
+print(text1.lower())
+print(text1.upper())
+print(text1.capitalize())
+print(text1.title())
+print(text1.swapcase())
 
 # slicing
-# print(text1[2:6])
-# print(text1[0:])
+print(text1[2:6])
+print(text1[0:])
 
-# # string negative slicing...
-# print(text1[-16:-6])
+# string negative slicing...
+print(text1[-16:-6])
 
-# # fimding index number of a strong
-# print(text1.index('b'))
-# print(text1.index('a'))
+# fimding index number of a strong
+print(text1.index('b'))
+print(text1.index('a'))
 
-# # index number finding using find function
+# index number finding using find function
 
-# print(text1.find('g'))
-# print(text1.index('b'))
+print(text1.find('g'))
+print(text1.index('b'))
 
-# # finding string length
-# print(len(text1))
-# # finding occurance
-# print(text1.count('a'))
+# finding string length
+print(len(text1))
+# finding occurance
+print(text1.count('a'))
 
-# # string repalcing
-# print(text1.replace('bangladseh','amercia'))
+# string repalcing
+print(text1.replace('bangladseh','amercia'))
 
 # sting spliting
-# text="amr nm jni na"
-# text1='amr-nm-jni-na'
-# b= text.split()
-# b=text1.split()
-# print(b)
-# print(b)
+text="amr nm jni na"
+text1='amr-nm-jni-na'
+b= text.split()
+b=text1.split()
+print(b)
+print(b)
 
-# print(text1.split())
-# print(text1.split("-"))
+print(text1.split())
+print(text1.split("-"))
 
-# # string striping/trimming
-# a="       i love bangladesh      "
-# print(a.strip())
+# string striping/trimming
+a="       i love bangladesh      "
+print(a.strip())
 
-# a='------i love bangladesh------'
-# print(a.strip('-'))
+a='------i love bangladesh------'
+print(a.strip('-'))
 
-#f string
-# a = input("Enter your number:")
-# b= input("Enter your age:")
-# c=input("enter your designation: ")
-# print(f'my name is {a} , i am {b} years old & my designation is {c}')
+# f string
+a = input("Enter your number:")
+b= input("Enter your age:")
+c=input("enter your designation: ")
+print(f'my name is {a} , i am {b} years old & my designation is {c}')
 
-# # multiline string
-# a1 =''' i love 
-# bangladesh  and this is my homeland
-# '''
-# print(a1)
+# multiline string
+a1 =''' i love 
+bangladesh  and this is my homeland
+'''
+print(a1)
 
-# # escape sequence
-# print('it\'s a cat')
-# print('it\\s a cat')
-# print("its our new \n bangladesh")
-# print("its our new \tcountry")
-# print("its our   new country")
-# #  ek ghor porimar space komanor jnoo...
+# escape sequence
+print('it\'s a cat')
+print('it\\s a cat')
+print("its our new \n bangladesh")
+print("its our new \tcountry")
+print("its our   new country")
+#  ek ghor porimar space komanor jnoo...
 
-# print("its our   \bnew country")
+print("its our   \bnew country")
 
-# a = input("Enter your name:").title()
-# b= input("Enter your age:")
-# # c=input("enter your designation: ").capitalize()
-# c=input("enter your designation: ").upper()
+a = input("Enter your name:").title()
+b= input("Enter your age:")
+c=input("enter your designation: ").capitalize()
+c=input("enter your designation: ").upper()
 
-# print(f'my name is {a} , i am {b} years old & my designation is {c}')
+print(f'my name is {a} , i am {b} years old & my designation is {c}')
 
 
  
-# a =("i love bangldesh").upper()
-# print(a)
-# x=print(a.split())
-# print(len(x))
+a =("i love bangldesh").upper()
+print(a)
+x=print(a.split())
+print(len(x))
 
 # finding total length of string wthous space
 
