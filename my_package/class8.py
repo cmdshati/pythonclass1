@@ -86,86 +86,22 @@ print(y)
 #PyPI - python Package Index.. -- python er package er  online repository...
 #mne developer ra packge create kore online repository te upload kore ... ar je keu tr projone pip install  diye ter end e install korte pre..and project e use korte pre..
 
-# import requests as r 
-# respone = r.get("http://google.com")
-# print(respone.status_code)
+import requests as r 
+respone = r.get("http://google.com")
+print(respone.status_code)
 
-# # import requests 
-# respone = requests.get("http://google.com")
-# print(respone.status_code)
-
-
-# import requests 
-# respone = requests.post("http://google.com")
-# print(respone.status_code)
+import requests 
+respone = requests.get("http://google.com")
+print(respone.status_code)
 
 
-##package ... hocce onkgual module er collection..mne onkgula python file er coleection...
-## package create korle oi packgae er vhetor je je module gula thakbe segula ke access kor  a jai..
-
-from my_package import  class8,class7
-
-print(class7.name)
-
-## turtle   package...
-# for drawing shape in python..
-# drawing a square..
-
-# import turtle
-
-# screen = turtle.Screen()
-# screen.title("My Shape")
-# # screen.bgcolor("lightblue")
-
-# my_turtle= turtle.Turtle()
-# my_turtle.pensize(5)
-# my_turtle.speed(1)
-# my_turtle.color("red")
-
-# for _ in range(4):
-#      my_turtle.backward(200)
-#      my_turtle.right(90)
-
-# turtle.done()    
-
-#drwaing a rectangle..
-
-# import turtle
-
-# screen = turtle.Screen()
-# screen.title("My Rectangle")
-# screen.bgcolor("lightblue")
-
-# t1 = turtle.Turtle()  ## turtle object create kor ahoyce..
-# t1.pensize(5)
-# t1.speed(1)
-# t1.color("red")
-
-# for _ in range(4):
-#      t1.forward(100)
-#      t1.right(90)
-#      t1.forward(150)
-#      t1.right(90)
-
-# turtle.done()
+import requests 
+respone = requests.post("http://google.com")
+print(respone.status_code)
 
 
 
-import turtle
 
-screen= turtle.Screen()
-screen.title("MY CIRCLE")
-screen.bgcolor("cyan")
-
-my_turtle = turtle.Turtle()
-my_turtle.pensize(3)
-my_turtle.speed(1)
-my_turtle.color("blue")
-
-my_turtle.circle(30)
-my_turtle.dot(5,"red")
-
-turtle.done()     
 
 
 
