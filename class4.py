@@ -85,7 +85,7 @@ for i in range(2,20, 3):
     print(i)     
 
 
-#range function...it can use with opne parameter...two parameter...and as well as..three parameter..
+#range function...it can use with one parameter...two parameter...and as well as..three parameter..
 
 # for loop in break..
 for i in range(6):

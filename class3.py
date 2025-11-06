@@ -6,8 +6,8 @@ print(a+b)
 print(a%b)
 
 print(4**2)
-print(97/2)
-print(97//2)
+print(97/2) #output wth floating point...
+print(97//2) # output only  integer number..
 
 #assignment operator
 # = , +=, -+,*=,/=, %=, **=, //=, &=, |=,^=,>>=,<<=,:=
@@ -77,14 +77,14 @@ print(chr(122))   #small...z
 
 #using loop..
 for i in range (65,91):
-    # print(i , end=" ")
+    # print(i)
     print(chr(i) , end =" ")
 
 print(end=" ")
 #for small letter..
 for i in range(97, 122):
     print(chr(i), end=" ")
-
+    
 
 #condition...if else ... elif(else if..)
 
@@ -92,9 +92,9 @@ p=20
 q=78
 
 if p<q :
-    print("b is greater than a")
+    print("q is greater than p")
 else:
-    print("a is less tha b")  
+    print("p is less tha q")  
 
 #create a system that  will grade a  student  obtained marks..   
 #make a calculator using if else  elif condition only...
@@ -133,7 +133,7 @@ while True:
         print(m*n)  
     elif(operator=="/"):
         if n==0:
-            print("Error in b")
+            print("Error in n")
             break
         print(m/n)
          

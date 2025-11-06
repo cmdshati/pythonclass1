@@ -121,6 +121,7 @@ print(a)
 a=[i  for i in range(1,11)]
 print(a)
     
+## cls er vhetoor function gulo ke parameter bole..    
 
 
 
